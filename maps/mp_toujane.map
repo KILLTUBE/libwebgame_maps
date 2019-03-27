@@ -3,8 +3,8 @@
 // entity 0
 {
 "classname" "worldspawn"
+"_tb_textures" "textures/concrete;textures/other;textures/test;textures/texturehaven_bricks;textures/tools;textures/window;textures/wood"
 "_tb_mod" "libwebgame"
-"_tb_textures" "textures/concrete;textures/other;textures/tools;textures/window;textures/wood"
 // brush 0
 {
 ( -7168 4480 -1024 ) ( -7168 -3968 -1024 ) ( -7168 -3968 -1920 ) concrete/white 0 0 0 0.5 0.5
@@ -79,12 +79,12 @@
 }
 // brush 8
 {
-( 8896 -4408 1448 ) ( 8896 -4488 1448 ) ( 8896 -4488 1408 ) concrete/desertish 0 0 0 0.5 0.5
-( 8896 -4496 1600 ) ( 9216 -4496 1600 ) ( 9216 -4496 1408 ) concrete/desertish 0 0 0 0.5 0.5
-( 9216 -4496 1600 ) ( 8896 -4496 1600 ) ( 8896 -4416 1632 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 9224 -4400 1408 ) ( 9024 -4400 1408 ) ( 9024 -4480 1408 ) concrete/desertish 0 0 0 0.25 0.25
-( 9216 -4416 1632 ) ( 8896 -4416 1632 ) ( 8896 -4416 1408 ) concrete/desertish 0 0 0 0.25 0.25
-( 9216 -4480 1448 ) ( 9216 -4400 1448 ) ( 9216 -4400 1408 ) concrete/desertish 0 0 0 0.5 0.5
+( 8896 -4408 1448 ) ( 8896 -4488 1448 ) ( 8896 -4488 1408 ) texturehaven_bricks/brick_4 0 0 0 0.5 0.5
+( 8896 -4496 1600 ) ( 9216 -4496 1600 ) ( 9216 -4496 1408 ) texturehaven_bricks/brick_4 0 0 0 0.5 0.5
+( 9216 -4496 1600 ) ( 8896 -4496 1600 ) ( 8896 -4416 1632 ) texturehaven_bricks/brick_4 0 0 0 0.5 0.5
+( 9224 -4400 1408 ) ( 9024 -4400 1408 ) ( 9024 -4480 1408 ) texturehaven_bricks/brick_4 0 0 0 0.25 0.25
+( 9216 -4416 1632 ) ( 8896 -4416 1632 ) ( 8896 -4416 1408 ) texturehaven_bricks/brick_4 0 0 0 0.25 0.25
+( 9216 -4480 1448 ) ( 9216 -4400 1448 ) ( 9216 -4400 1408 ) texturehaven_bricks/brick_4 0 0 0 0.5 0.5
 }
 // brush 9
 {
