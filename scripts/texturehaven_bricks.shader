@@ -103,20 +103,20 @@ textures/texturehaven_bricks/red_brick_03_1k
 	}
 }
 
-textures/texturehaven_bricks/red_brick_plaster_patch_02_1k
+textures/texturehaven_bricks/red_brick_02_1k
 {
-	qer_editorimage textures/texturehaven_bricks/red_brick_plaster_patch_02_diff_1k.jpg
+	qer_editorimage textures/texturehaven_bricks/red_brick_02_diff_1k.jpg
 	{
-		map textures/texturehaven_bricks/red_brick_plaster_patch_02_diff_1k.jpg
+		map textures/texturehaven_bricks/red_brick_02_diff_1k.jpg
 		rgbgen identity
 	}
 	{
 		stage normalparallaxmap
-		map textures/texturehaven_bricks/red_brick_plaster_patch_02_1k_n.png
+		map textures/texturehaven_bricks/red_brick_02_1k_n.png
 	}
 	{
 		stage specularmap
-		map textures/texturehaven_bricks/red_brick_plaster_patch_02_1k_s.jpg
+		map textures/texturehaven_bricks/red_brick_02_1k_s.jpg
 	}
 	{
 		map $lightmap
