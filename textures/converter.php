@@ -1,15 +1,20 @@
 <?php
 
 	$fullnames = [
-		"texturehaven_bricks/brick_4",
-		"texturehaven_bricks/brown_brick_02",
-		"texturehaven_bricks/plaster_brick_01",
-		"texturehaven_bricks/random_bricks_thick",
-		"texturehaven_bricks/red_brick_03",
-		"texturehaven_bricks/red_brick_02", // renamed from red_brick_plaster_patch_02, path too long (max MAX_QPATH which is 64)
-		"texturehaven_bricks/white_bricks",
-		"texturehaven_bricks/yellow_brick",
-		"texturehaven_bricks/yellow_bricks"
+	
+		"texturehaven_concrete/concrete",
+		"texturehaven_concrete/concrete_floor_01",
+		"texturehaven_concrete/concrete_floor_02",
+		
+		//"texturehaven_bricks/brick_4",
+		//"texturehaven_bricks/brown_brick_02",
+		//"texturehaven_bricks/plaster_brick_01",
+		//"texturehaven_bricks/random_bricks_thick",
+		//"texturehaven_bricks/red_brick_03",
+		//"texturehaven_bricks/red_brick_02", // renamed from red_brick_plaster_patch_02, path too long (max MAX_QPATH which is 64)
+		//"texturehaven_bricks/white_bricks",
+		//"texturehaven_bricks/yellow_brick",
+		//"texturehaven_bricks/yellow_bricks"
 		
 		
 	];
