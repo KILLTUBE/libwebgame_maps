@@ -1,24 +1,189 @@
-textures/texturehaven_bricks/brick_4
+textures/texturehaven_bricks/brick_4_1k
 {
-    qer_editorimage textures/texturehaven_bricks/brick_4_diff_1k.jpg
-    {
-        map textures/texturehaven_bricks/brick_4_diff_1k.jpg
-        rgbgen identity
-    }
-    {
-        stage normalmap
-        map textures/texturehaven_bricks/brick_4_nor_1k.jpg
-        normalScale 1 1
-        //parallaxDepth 0.05
-    }
-    {
-        stage specularmap
-        map textures/texturehaven_bricks/brick_4_spec_1k.jpg
-        specularReflectance 0.12
-        specularExponent 16
-    }
-    {
-        map $lightmap
-        blendfunc GL_DST_COLOR GL_ZERO
-    }
+	qer_editorimage textures/texturehaven_bricks/brick_4_diff_1k.jpg
+	{
+		map textures/texturehaven_bricks/brick_4_diff_1k.jpg
+		rgbgen identity
+	}
+	{
+		stage normalparallaxmap
+		map textures/texturehaven_bricks/brick_4_1k_n.png
+	}
+	{
+		stage specularmap
+		map textures/texturehaven_bricks/brick_4_1k_s.jpg
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+	}
 }
+
+textures/texturehaven_bricks/brown_brick_02_1k
+{
+	qer_editorimage textures/texturehaven_bricks/brown_brick_02_diff_1k.jpg
+	{
+		map textures/texturehaven_bricks/brown_brick_02_diff_1k.jpg
+		rgbgen identity
+	}
+	{
+		stage normalparallaxmap
+		map textures/texturehaven_bricks/brown_brick_02_1k_n.png
+	}
+	{
+		stage specularmap
+		map textures/texturehaven_bricks/brown_brick_02_1k_s.jpg
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/texturehaven_bricks/plaster_brick_01_1k
+{
+	qer_editorimage textures/texturehaven_bricks/plaster_brick_01_diff_1k.jpg
+	{
+		map textures/texturehaven_bricks/plaster_brick_01_diff_1k.jpg
+		rgbgen identity
+	}
+	{
+		stage normalparallaxmap
+		map textures/texturehaven_bricks/plaster_brick_01_1k_n.png
+	}
+	{
+		stage specularmap
+		map textures/texturehaven_bricks/plaster_brick_01_1k_s.jpg
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/texturehaven_bricks/random_bricks_thick_1k
+{
+	qer_editorimage textures/texturehaven_bricks/random_bricks_thick_diff_1k.jpg
+	{
+		map textures/texturehaven_bricks/random_bricks_thick_diff_1k.jpg
+		rgbgen identity
+	}
+	{
+		stage normalparallaxmap
+		map textures/texturehaven_bricks/random_bricks_thick_1k_n.png
+	}
+	{
+		stage specularmap
+		map textures/texturehaven_bricks/random_bricks_thick_1k_s.jpg
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/texturehaven_bricks/red_brick_03_1k
+{
+	qer_editorimage textures/texturehaven_bricks/red_brick_03_diff_1k.jpg
+	{
+		map textures/texturehaven_bricks/red_brick_03_diff_1k.jpg
+		rgbgen identity
+	}
+	{
+		stage normalparallaxmap
+		map textures/texturehaven_bricks/red_brick_03_1k_n.png
+	}
+	{
+		stage specularmap
+		map textures/texturehaven_bricks/red_brick_03_1k_s.jpg
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/texturehaven_bricks/red_brick_plaster_patch_02_1k
+{
+	qer_editorimage textures/texturehaven_bricks/red_brick_plaster_patch_02_diff_1k.jpg
+	{
+		map textures/texturehaven_bricks/red_brick_plaster_patch_02_diff_1k.jpg
+		rgbgen identity
+	}
+	{
+		stage normalparallaxmap
+		map textures/texturehaven_bricks/red_brick_plaster_patch_02_1k_n.png
+	}
+	{
+		stage specularmap
+		map textures/texturehaven_bricks/red_brick_plaster_patch_02_1k_s.jpg
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/texturehaven_bricks/white_bricks_1k
+{
+	qer_editorimage textures/texturehaven_bricks/white_bricks_diff_1k.jpg
+	{
+		map textures/texturehaven_bricks/white_bricks_diff_1k.jpg
+		rgbgen identity
+	}
+	{
+		stage normalparallaxmap
+		map textures/texturehaven_bricks/white_bricks_1k_n.png
+	}
+	{
+		stage specularmap
+		map textures/texturehaven_bricks/white_bricks_1k_s.jpg
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/texturehaven_bricks/yellow_brick_1k
+{
+	qer_editorimage textures/texturehaven_bricks/yellow_brick_diff_1k.jpg
+	{
+		map textures/texturehaven_bricks/yellow_brick_diff_1k.jpg
+		rgbgen identity
+	}
+	{
+		stage normalparallaxmap
+		map textures/texturehaven_bricks/yellow_brick_1k_n.png
+	}
+	{
+		stage specularmap
+		map textures/texturehaven_bricks/yellow_brick_1k_s.jpg
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+	}
+}
+
+textures/texturehaven_bricks/yellow_bricks_1k
+{
+	qer_editorimage textures/texturehaven_bricks/yellow_bricks_diff_1k.jpg
+	{
+		map textures/texturehaven_bricks/yellow_bricks_diff_1k.jpg
+		rgbgen identity
+	}
+	{
+		stage normalparallaxmap
+		map textures/texturehaven_bricks/yellow_bricks_1k_n.png
+	}
+	{
+		stage specularmap
+		map textures/texturehaven_bricks/yellow_bricks_1k_s.jpg
+	}
+	{
+		map $lightmap
+		blendfunc GL_DST_COLOR GL_ZERO
+	}
+}
+
