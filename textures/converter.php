@@ -1,28 +1,39 @@
 <?php
 
-	$fullnames = [
+	$fullnames = [];
 	
-		"texturehaven_concrete/concrete",
-		"texturehaven_concrete/concrete_floor_01",
-		"texturehaven_concrete/concrete_floor_02",
-		
-		//"texturehaven_bricks/brick_4",
-		//"texturehaven_bricks/brown_brick_02",
-		//"texturehaven_bricks/plaster_brick_01",
-		//"texturehaven_bricks/random_bricks_thick",
-		//"texturehaven_bricks/red_brick_03",
-		//"texturehaven_bricks/red_brick_02", // renamed from red_brick_plaster_patch_02, path too long (max MAX_QPATH which is 64)
-		//"texturehaven_bricks/white_bricks",
-		//"texturehaven_bricks/yellow_brick",
-		//"texturehaven_bricks/yellow_bricks"
-		
-		
-	];
+	// enable/disable whatever you currently need
+	if (0) {
+		$fullnames[] = "texturehaven_concrete/concrete";
+		$fullnames[] = "texturehaven_concrete/concrete_floor_01";
+		$fullnames[] = "texturehaven_concrete/concrete_floor_02";
+	}
 	
+	if (0) {
+		$fullnames[] = "texturehaven_bricks/brick_4";
+		$fullnames[] = "texturehaven_bricks/brown_brick_02";
+		$fullnames[] = "texturehaven_bricks/plaster_brick_01";
+		$fullnames[] = "texturehaven_bricks/random_bricks_thick";
+		$fullnames[] = "texturehaven_bricks/red_brick_03";
+		$fullnames[] = "texturehaven_bricks/red_brick_02"; // renamed from red_brick_plaster_patch_02, path too long (max MAX_QPATH which is 64)
+		$fullnames[] = "texturehaven_bricks/white_bricks";
+		$fullnames[] = "texturehaven_bricks/yellow_brick";
+		$fullnames[] = "texturehaven_bricks/yellow_bricks";
+	}
+	
+	if (1) {
+		$fullnames[] = "texturehaven_metal/factory_wall";
+		$fullnames[] = "texturehaven_metal/green_metal_rust";
+		$fullnames[] = "texturehaven_metal/metal_plate";
+		$fullnames[] = "texturehaven_metal/rusty_metal_02";
+		$fullnames[] = "texturehaven_metal/rusty_metal";
+	}
 	
 	$shader = "";
 	
 	foreach ($fullnames as $fullname) {
+		echo "processing $fullname\n";
+		
 		$parts_folder_name = explode("/", $fullname);
 		$folder = $parts_folder_name[0];
 		$name = $parts_folder_name[1];
@@ -37,17 +48,46 @@
 		$nor   = $folder . "/" . $name . "_nor_1k.jpg";
 		$disp  = $folder . "/" . $name . "_disp_1k.jpg";
 		
+		//if (!file_exists($diff))
+		//	$diff  = $folder . "/" . $name . "_Diff_1k.jpg";
+		//if (!file_exists($spec))
+		//	$spec  = $folder . "/" . $name . "_Spec_1k.jpg";
+		//if (!file_exists($rough))
+		//	$rough = $folder . "/" . $name . "_Rough_1k.jpg";
+		//if (!file_exists($ao))
+		//	$ao    = $folder . "/" . $name . "_ao_1k.jpg";
+		//if (!file_exists($nor))
+		//	$nor   = $folder . "/" . $name . "_Nor_1k.jpg";
+		//if (!file_exists($disp))
+		//	$disp  = $folder . "/" . $name . "_Disp_1k.jpg";
+			
+		
+		if (!file_exists($diff))
+			echo "diff $fullname does not exist\n";
+		if (!file_exists($spec))
+			echo "spec $fullname does not exist\n";
+		if (!file_exists($rough))
+			echo "rough $fullname does not exist\n";
+		if (!file_exists($ao))
+			echo "ao $fullname does not exist\n";
+		if (!file_exists($nor))
+			echo "nor $fullname does not exist\n";
+		if (!file_exists($disp))
+			echo "disp $fullname does not exist\n";
+		
 		// this command will generate:
 		// - output_n.png (4 channels)
 		// - output_s.png (3 channels)
 		system("pbr_converter.exe $spec $rough $ao $nor $disp");
 		
+		$gen_n = $folder . "/" . $name . "_1k_n.png";
+		$gen_s = $folder . "/" . $name . "_1k_s.jpg";
 		
-		if (!rename("output_n.png", $folder . "/" . $name . "_1k_n.png"))
+		if (!rename("output_n.png", $gen_n))
 			echo "rename failed";
 		
 		// now convert the output_s.png into a 100kb output_s.jpg
-		system("magick convert output_s.png -define jpeg:extent=100kb " . $folder . "/" . $name . "_1k_s.jpg");
+		system("magick convert output_s.png -define jpeg:extent=100kb " . $gen_s);
 		unlink("output_s.png"); // we generated a .jpg out of it, can be deleted
 		
 		// now add a proper shader, gonna look like this:
@@ -76,18 +116,18 @@
 		
 		$shader .= "textures/" . $folder . "/" . $name . "_1k\n";
 		$shader .= "{\n";
-		$shader .= "	qer_editorimage textures/" . $folder . "/" . $name . "_diff_1k.jpg\n";
+		$shader .= "	qer_editorimage textures/" . $diff . "\n";
 		$shader .= "	{\n";
-		$shader .= "		map textures/" . $folder . "/" . $name . "_diff_1k.jpg\n";
+		$shader .= "		map textures/" . $diff . "\n";
 		$shader .= "		rgbgen identity\n";
 		$shader .= "	}\n";
 		$shader .= "	{\n";
 		$shader .= "		stage normalparallaxmap\n";
-		$shader .= "		map textures/" . $folder . "/" . $name . "_1k_n.png\n";
+		$shader .= "		map textures/" . $gen_n . "\n";
 		$shader .= "	}\n";
 		$shader .= "	{\n";
 		$shader .= "		stage specularmap\n";
-		$shader .= "		map textures/" . $folder . "/" . $name . "_1k_s.jpg\n";
+		$shader .= "		map textures/" . $gen_s . "\n";
 		$shader .= "	}\n";
 		$shader .= "	{\n";
 		$shader .= "		map \$lightmap\n";
