@@ -4,74 +4,20 @@
 {
 "classname" "worldspawn"
 "_tb_mod" "libwebgame"
-"_tb_textures" "textures/concrete"
+"_tb_textures" "textures/base;textures/base_ceiling;textures/concrete;textures/skies;textures/texturehaven_metal"
 // brush 0
 {
-( -496 -4520 312 ) ( -496 -4536 312 ) ( -496 -4536 168 ) concrete/ceiling2 0 240 0 0.5 0.5
-( -48 -5248 192 ) ( 104 -5248 192 ) ( 104 -5248 48 ) concrete/ceiling2 0 240 0 0.5 0.5
-( 192 -5080 -8 ) ( 40 -5080 -8 ) ( 40 -5096 -8 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -128 -5096 -0 ) ( -128 -5080 -0 ) ( 24 -5080 -0 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -248 -4368 192 ) ( -400 -4368 192 ) ( -400 -4368 48 ) concrete/ceiling2 0 240 0 0.5 0.5
-( 192 -5096 136 ) ( 192 -5080 136 ) ( 192 -5080 -8 ) concrete/ceiling2 0 240 0 0.5 0.5
-}
-// brush 1
-{
-( -2496 -3136 960 ) ( -2496 -3200 960 ) ( -2496 -3200 896 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 34752 -3072 1472 ) ( 38080 -3072 1472 ) ( 38080 -3072 1408 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -3008 -512 ) ( -0 -3008 -512 ) ( -0 -3072 -512 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -0 -3072 1984 ) ( -0 -3008 1984 ) ( 3328 -3008 1984 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -3008 1472 ) ( -0 -3008 1472 ) ( -0 -3008 1408 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -3072 960 ) ( 3328 -3008 960 ) ( 3328 -3008 896 ) concrete/ceiling2 0 0 0 0.5 0.5
-}
-// brush 2
-{
-( 3328 -3072 1472 ) ( 3328 -3392 1472 ) ( 3328 -3392 -512 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3072 -7872 1984 ) ( 3136 -7872 1984 ) ( 3136 -7872 -0 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3392 -3072 -512 ) ( 3328 -3072 -512 ) ( 3328 -3392 -512 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -3392 1984 ) ( 3328 -3072 1984 ) ( 3392 -3072 1984 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3392 -3072 1984 ) ( 3328 -3072 1984 ) ( 3328 -3072 -0 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3392 -3392 1984 ) ( 3392 -3072 1984 ) ( 3392 -3072 -0 ) concrete/ceiling2 0 0 0 0.5 0.5
-}
-// brush 3
-{
-( -2496 -7872 1472 ) ( -2496 -8000 1472 ) ( -2496 -8000 -512 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2112 -7936 1984 ) ( -2048 -7936 1984 ) ( -2048 -7936 -0 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 2880 -7872 -512 ) ( 2816 -7872 -512 ) ( 2816 -8000 -512 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 2816 -8000 1984 ) ( 2816 -7872 1984 ) ( 2880 -7872 1984 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 2944 -7872 1984 ) ( 2880 -7872 1984 ) ( 2880 -7872 -0 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -7936 1472 ) ( 3328 -7808 1472 ) ( 3328 -7808 -512 ) concrete/ceiling2 0 0 0 0.5 0.5
-}
-// brush 4
-{
-( -2560 -3136 1984 ) ( -2560 -3456 1984 ) ( -2560 -3456 -0 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2624 -7872 1984 ) ( -2368 -7872 1984 ) ( -2368 -7872 -0 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2304 -3072 -512 ) ( -2560 -3072 -512 ) ( -2560 -3392 -512 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2560 -3392 1984 ) ( -2560 -3072 1984 ) ( -2304 -3072 1984 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2304 -3072 1984 ) ( -2560 -3072 1984 ) ( -2560 -3072 -0 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2496 -3392 1472 ) ( -2496 -3072 1472 ) ( -2496 -3072 -512 ) concrete/ceiling2 0 0 0 0.5 0.5
-}
-// brush 5
-{
-( -2496 -3072 2048 ) ( -2496 -7872 2048 ) ( -2496 -7872 64 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2496 -7872 2048 ) ( 3328 -7872 2048 ) ( 3328 -7872 64 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -3072 1984 ) ( -2496 -3072 1984 ) ( -2496 -7872 1984 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2496 -7872 2048 ) ( -2496 -3072 2048 ) ( 3328 -3072 2048 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -3072 2048 ) ( -2496 -3072 2048 ) ( -2496 -3072 64 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -7872 2048 ) ( 3328 -3072 2048 ) ( 3328 -3072 64 ) concrete/ceiling2 0 0 0 0.5 0.5
-}
-// brush 6
-{
-( -2496 -3072 -512 ) ( -2496 -7872 -512 ) ( -2496 -7872 -2496 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2496 -7872 -512 ) ( 3328 -7872 -512 ) ( 3328 -7872 -2496 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -3072 -576 ) ( -2496 -3072 -576 ) ( -2496 -7872 -576 ) concrete/ceiling2 0 0 0 0.5 0.5
-( -2496 -7872 -512 ) ( -2496 -3072 -512 ) ( 3328 -3072 -512 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -3072 -512 ) ( -2496 -3072 -512 ) ( -2496 -3072 -2496 ) concrete/ceiling2 0 0 0 0.5 0.5
-( 3328 -7872 -512 ) ( 3328 -3072 -512 ) ( 3328 -3072 -2496 ) concrete/ceiling2 0 0 0 0.5 0.5
+( -496 -4520 312 ) ( -496 -4536 312 ) ( -496 -4536 168 ) texturehaven_metal/rusty_metal_1k 0 240 0 0.5 0.5
+( -48 -5248 192 ) ( 104 -5248 192 ) ( 104 -5248 48 ) texturehaven_metal/rusty_metal_1k 0 240 0 0.5 0.5
+( 192 -5080 -8 ) ( 40 -5080 -8 ) ( 40 -5096 -8 ) texturehaven_metal/rusty_metal_1k 0 0 0 0.5 0.5
+( -128 -5096 -0 ) ( -128 -5080 -0 ) ( 24 -5080 -0 ) texturehaven_metal/rusty_metal_1k 0 0 0 0.5 0.5
+( -248 -4368 192 ) ( -400 -4368 192 ) ( -400 -4368 48 ) texturehaven_metal/rusty_metal_1k 0 240 0 0.5 0.5
+( 192 -5096 136 ) ( 192 -5080 136 ) ( 192 -5080 -8 ) texturehaven_metal/rusty_metal_1k 0 240 0 0.5 0.5
 }
 }
 // entity 1
 {
-"origin" "80 -5088 64"
+"origin" "32 -5040 32"
 "classname" "info_player_deathmatch"
 }
 // entity 2
@@ -81,12 +27,12 @@
 "targetname" "test"
 // brush 0
 {
-( -16 -5040 96 ) ( -16 -5096 96 ) ( -16 -5096 88 ) concrete/desertish 0 176 0 0.5 0.5
-( -16 -5096 96 ) ( 48 -5096 96 ) ( 48 -5096 88 ) concrete/desertish 0 176 0 0.5 0.5
-( 48 -5040 88 ) ( -16 -5040 88 ) ( -16 -5096 88 ) concrete/desertish 0 0 0 0.5 0.5
-( -16 -5096 96 ) ( -16 -5040 96 ) ( 48 -5040 96 ) concrete/desertish 0 0 0 0.5 0.5
-( 48 -5040 96 ) ( -16 -5040 96 ) ( -16 -5040 88 ) concrete/desertish 0 176 0 0.5 0.5
-( 48 -5096 96 ) ( 48 -5040 96 ) ( 48 -5040 88 ) concrete/desertish 0 176 0 0.5 0.5
+( 16 -5200 96 ) ( 16 -5256 96 ) ( 16 -5256 88 ) concrete/desertish -0 -0 -0 0.5 0.5
+( 16 -5256 96 ) ( 80 -5256 96 ) ( 80 -5256 88 ) concrete/desertish -0 -0 -0 0.5 0.5
+( 80 -5200 88 ) ( 16 -5200 88 ) ( 16 -5256 88 ) concrete/desertish -0 -0 -0 0.5 0.5
+( 16 -5256 96 ) ( 16 -5200 96 ) ( 80 -5200 96 ) concrete/desertish -0 -0 -0 0.5 0.5
+( 80 -5200 96 ) ( 16 -5200 96 ) ( 16 -5200 88 ) concrete/desertish -0 -0 -0 0.5 0.5
+( 80 -5256 96 ) ( 80 -5200 96 ) ( 80 -5200 88 ) concrete/desertish -0 -0 -0 0.5 0.5
 }
 }
 // entity 3
@@ -103,4 +49,224 @@
 ( 224 -4312 -48 ) ( 736 -4312 -48 ) ( 736 -5192 392 ) concrete/desertish -480 800 0 0.5 0.5
 ( 736 -5040 152 ) ( 736 -4984 152 ) ( 736 -4984 144 ) concrete/desertish -800 464 0 0.5 0.5
 }
+}
+// entity 4
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "sky"
+"_tb_id" "10"
+// brush 0
+{
+( -2496 -3072 2048 ) ( -2496 -7872 2048 ) ( -2496 -7872 64 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2496 -7872 2048 ) ( 3328 -7872 2048 ) ( 3328 -7872 64 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -3072 1984 ) ( -2496 -3072 1984 ) ( -2496 -7872 1984 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2496 -7872 2048 ) ( -2496 -3072 2048 ) ( 3328 -3072 2048 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -3072 2048 ) ( -2496 -3072 2048 ) ( -2496 -3072 64 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -7872 2048 ) ( 3328 -3072 2048 ) ( 3328 -3072 64 ) skies/hellsky2bright 0 0 0 0.1 0.1
+}
+// brush 1
+{
+( -2496 -3136 960 ) ( -2496 -3200 960 ) ( -2496 -3200 896 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 34752 -3072 1472 ) ( 38080 -3072 1472 ) ( 38080 -3072 1408 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -3008 -512 ) ( -0 -3008 -512 ) ( -0 -3072 -512 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -0 -3072 1984 ) ( -0 -3008 1984 ) ( 3328 -3008 1984 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -3008 1472 ) ( -0 -3008 1472 ) ( -0 -3008 1408 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -3072 960 ) ( 3328 -3008 960 ) ( 3328 -3008 896 ) skies/hellsky2bright 0 0 0 0.1 0.1
+}
+// brush 2
+{
+( 3328 -3072 1472 ) ( 3328 -3392 1472 ) ( 3328 -3392 -512 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3072 -7872 1984 ) ( 3136 -7872 1984 ) ( 3136 -7872 -0 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3392 -3072 -512 ) ( 3328 -3072 -512 ) ( 3328 -3392 -512 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -3392 1984 ) ( 3328 -3072 1984 ) ( 3392 -3072 1984 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3392 -3072 1984 ) ( 3328 -3072 1984 ) ( 3328 -3072 -0 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3392 -3392 1984 ) ( 3392 -3072 1984 ) ( 3392 -3072 -0 ) skies/hellsky2bright 0 0 0 0.1 0.1
+}
+// brush 3
+{
+( -2560 -3136 1984 ) ( -2560 -3456 1984 ) ( -2560 -3456 -0 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2624 -7872 1984 ) ( -2368 -7872 1984 ) ( -2368 -7872 -0 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2304 -3072 -512 ) ( -2560 -3072 -512 ) ( -2560 -3392 -512 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2560 -3392 1984 ) ( -2560 -3072 1984 ) ( -2304 -3072 1984 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2304 -3072 1984 ) ( -2560 -3072 1984 ) ( -2560 -3072 -0 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2496 -3392 1472 ) ( -2496 -3072 1472 ) ( -2496 -3072 -512 ) skies/hellsky2bright 0 0 0 0.1 0.1
+}
+// brush 4
+{
+( -2496 -3072 -512 ) ( -2496 -7872 -512 ) ( -2496 -7872 -2496 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2496 -7872 -512 ) ( 3328 -7872 -512 ) ( 3328 -7872 -2496 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -3072 -576 ) ( -2496 -3072 -576 ) ( -2496 -7872 -576 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2496 -7872 -512 ) ( -2496 -3072 -512 ) ( 3328 -3072 -512 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -3072 -512 ) ( -2496 -3072 -512 ) ( -2496 -3072 -2496 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -7872 -512 ) ( 3328 -3072 -512 ) ( 3328 -3072 -2496 ) skies/hellsky2bright 0 0 0 0.1 0.1
+}
+// brush 5
+{
+( -2496 -7872 1472 ) ( -2496 -8000 1472 ) ( -2496 -8000 -512 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( -2112 -7936 1984 ) ( -2048 -7936 1984 ) ( -2048 -7936 -0 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 2880 -7872 -512 ) ( 2816 -7872 -512 ) ( 2816 -8000 -512 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 2816 -8000 1984 ) ( 2816 -7872 1984 ) ( 2880 -7872 1984 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 2944 -7872 1984 ) ( 2880 -7872 1984 ) ( 2880 -7872 -0 ) skies/hellsky2bright 0 0 0 0.1 0.1
+( 3328 -7936 1472 ) ( 3328 -7808 1472 ) ( 3328 -7808 -512 ) skies/hellsky2bright 0 0 0 0.1 0.1
+}
+// brush 6
+{
+( 16 -4544 -0 ) ( 16 -4543 -0 ) ( 16 -4544 1 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( -48 -4544 -0 ) ( -48 -4544 1 ) ( -47 -4544 -0 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( -48 -4544 -0 ) ( -47 -4544 -0 ) ( -48 -4543 -0 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( 96 -4448 64 ) ( 96 -4447 64 ) ( 97 -4448 64 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( 96 -4448 16 ) ( 97 -4448 16 ) ( 96 -4448 17 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( 96 -4448 16 ) ( 96 -4448 17 ) ( 96 -4447 16 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+}
+// brush 7
+{
+( 16 -4688 -0 ) ( 16 -4687 -0 ) ( 16 -4688 1 ) texturehaven_metal/green_metal_rust_1k 144 -0 -0 0.1 0.1
+( -48 -4688 -0 ) ( -48 -4688 1 ) ( -47 -4688 -0 ) texturehaven_metal/green_metal_rust_1k -0 -0 -0 0.1 0.1
+( -48 -4688 -0 ) ( -47 -4688 -0 ) ( -48 -4687 -0 ) texturehaven_metal/green_metal_rust_1k -0 -144 -0 0.1 0.1
+( 96 -4592 64 ) ( 96 -4591 64 ) ( 97 -4592 64 ) texturehaven_metal/green_metal_rust_1k -0 -144 -0 0.1 0.1
+( 96 -4592 16 ) ( 97 -4592 16 ) ( 96 -4592 17 ) texturehaven_metal/green_metal_rust_1k -0 -0 -0 0.1 0.1
+( 96 -4592 16 ) ( 96 -4592 17 ) ( 96 -4591 16 ) texturehaven_metal/green_metal_rust_1k 144 -0 -0 0.1 0.1
+}
+// brush 8
+{
+( 16 -4832 -0 ) ( 16 -4831 -0 ) ( 16 -4832 1 ) texturehaven_metal/metal_plate_1k 288 -0 -0 0.1 0.1
+( -48 -4832 -0 ) ( -48 -4832 1 ) ( -47 -4832 -0 ) texturehaven_metal/metal_plate_1k -0 -0 -0 0.1 0.1
+( -48 -4832 -0 ) ( -47 -4832 -0 ) ( -48 -4831 -0 ) texturehaven_metal/metal_plate_1k -0 -288 -0 0.1 0.1
+( 96 -4736 64 ) ( 96 -4735 64 ) ( 97 -4736 64 ) texturehaven_metal/metal_plate_1k -0 -288 -0 0.1 0.1
+( 96 -4736 16 ) ( 97 -4736 16 ) ( 96 -4736 17 ) texturehaven_metal/metal_plate_1k -0 -0 -0 0.1 0.1
+( 96 -4736 16 ) ( 96 -4736 17 ) ( 96 -4735 16 ) texturehaven_metal/metal_plate_1k 288 -0 -0 0.1 0.1
+}
+// brush 9
+{
+( 16 -4992 -0 ) ( 16 -4991 -0 ) ( 16 -4992 1 ) texturehaven_metal/rusty_metal_02_1k 448 -0 -0 0.1 0.1
+( -48 -4992 -0 ) ( -48 -4992 1 ) ( -47 -4992 -0 ) texturehaven_metal/rusty_metal_02_1k -0 -0 -0 0.1 0.1
+( -48 -4992 -0 ) ( -47 -4992 -0 ) ( -48 -4991 -0 ) texturehaven_metal/rusty_metal_02_1k -0 -448 -0 0.1 0.1
+( 96 -4896 64 ) ( 96 -4895 64 ) ( 97 -4896 64 ) texturehaven_metal/rusty_metal_02_1k -0 -448 -0 0.1 0.1
+( 96 -4896 16 ) ( 97 -4896 16 ) ( 96 -4896 17 ) texturehaven_metal/rusty_metal_02_1k -0 -0 -0 0.1 0.1
+( 96 -4896 16 ) ( 96 -4896 17 ) ( 96 -4895 16 ) texturehaven_metal/rusty_metal_02_1k 448 -0 -0 0.1 0.1
+}
+// brush 10
+{
+( -128 -4544 -0 ) ( -128 -4543 -0 ) ( -128 -4544 1 ) texturehaven_metal/rusty_metal_1k -0 -0 -0 0.1 0.1
+( -192 -4544 -0 ) ( -192 -4544 1 ) ( -191 -4544 -0 ) texturehaven_metal/rusty_metal_1k 144 -0 -0 0.1 0.1
+( -192 -4544 -0 ) ( -191 -4544 -0 ) ( -192 -4543 -0 ) texturehaven_metal/rusty_metal_1k 144 -0 -0 0.1 0.1
+( -48 -4448 64 ) ( -48 -4447 64 ) ( -47 -4448 64 ) texturehaven_metal/rusty_metal_1k 144 -0 -0 0.1 0.1
+( -48 -4448 16 ) ( -47 -4448 16 ) ( -48 -4448 17 ) texturehaven_metal/rusty_metal_1k 144 -0 -0 0.1 0.1
+( -48 -4448 16 ) ( -48 -4448 17 ) ( -48 -4447 16 ) texturehaven_metal/rusty_metal_1k -0 -0 -0 0.1 0.1
+}
+// brush 11
+{
+( -256 -5200 -0 ) ( -256 -5199 -0 ) ( -256 -5200 1 ) texturehaven_metal/rusty_metal_1k -0 -0 -0 0.1 0.1
+( -256 -5088 -0 ) ( -256 -5088 1 ) ( -255 -5088 -0 ) texturehaven_metal/rusty_metal_1k -0 -0 -0 0.1 0.1
+( -256 -5200 -0 ) ( -255 -5200 -0 ) ( -256 -5199 -0 ) texturehaven_metal/rusty_metal_1k -0 -0 -0 0.1 0.1
+( -240 -4416 176 ) ( -240 -4415 176 ) ( -239 -4416 176 ) texturehaven_metal/rusty_metal_1k -0 -0 -0 0.1 0.1
+( -240 -4416 16 ) ( -239 -4416 16 ) ( -240 -4416 17 ) texturehaven_metal/rusty_metal_1k -0 -0 -0 0.1 0.1
+( -240 -4416 16 ) ( -240 -4416 17 ) ( -240 -4415 16 ) texturehaven_metal/rusty_metal_1k -0 -0 -0 0.1 0.1
+}
+// brush 12
+{
+( -512 -4528 -0 ) ( -512 -4527 -0 ) ( -512 -4528 1 ) texturehaven_metal/rusty_metal_1k -16 -0 -0 0.1 0.1
+( -576 -4528 -0 ) ( -576 -4528 1 ) ( -575 -4528 -0 ) texturehaven_metal/rusty_metal_1k 528 -0 -0 0.1 0.1
+( -576 -4528 -0 ) ( -575 -4528 -0 ) ( -576 -4527 -0 ) texturehaven_metal/rusty_metal_1k 528 16 -0 0.1 0.1
+( -432 -4432 64 ) ( -432 -4431 64 ) ( -431 -4432 64 ) texturehaven_metal/rusty_metal_1k 528 16 -0 0.1 0.1
+( -432 -4432 16 ) ( -431 -4432 16 ) ( -432 -4432 17 ) texturehaven_metal/rusty_metal_1k 528 -0 -0 0.1 0.1
+( -432 -4432 16 ) ( -432 -4432 17 ) ( -432 -4431 16 ) texturehaven_metal/rusty_metal_1k -16 -0 -0 0.1 0.1
+}
+// brush 13
+{
+( -368 -4528 -0 ) ( -368 -4527 -0 ) ( -368 -4528 1 ) texturehaven_metal/factory_wall_1k -16 -0 -0 0.1 0.1
+( -432 -4528 -0 ) ( -432 -4528 1 ) ( -431 -4528 -0 ) texturehaven_metal/factory_wall_1k 384 -0 -0 0.1 0.1
+( -432 -4528 -0 ) ( -431 -4528 -0 ) ( -432 -4527 -0 ) texturehaven_metal/factory_wall_1k 384 16 -0 0.1 0.1
+( -288 -4432 64 ) ( -288 -4431 64 ) ( -287 -4432 64 ) texturehaven_metal/factory_wall_1k 384 16 -0 0.1 0.1
+( -288 -4432 16 ) ( -287 -4432 16 ) ( -288 -4432 17 ) texturehaven_metal/factory_wall_1k 384 -0 -0 0.1 0.1
+( -288 -4432 16 ) ( -288 -4432 17 ) ( -288 -4431 16 ) texturehaven_metal/factory_wall_1k -16 -0 -0 0.1 0.1
+}
+// brush 14
+{
+( -368 -4672 -0 ) ( -368 -4671 -0 ) ( -368 -4672 1 ) texturehaven_metal/green_metal_rust_1k 128 -0 -0 0.1 0.1
+( -432 -4672 -0 ) ( -432 -4672 1 ) ( -431 -4672 -0 ) texturehaven_metal/green_metal_rust_1k 384 -0 -0 0.1 0.1
+( -432 -4672 -0 ) ( -431 -4672 -0 ) ( -432 -4671 -0 ) texturehaven_metal/green_metal_rust_1k 384 -128 -0 0.1 0.1
+( -288 -4576 64 ) ( -288 -4575 64 ) ( -287 -4576 64 ) texturehaven_metal/green_metal_rust_1k 384 -128 -0 0.1 0.1
+( -288 -4576 16 ) ( -287 -4576 16 ) ( -288 -4576 17 ) texturehaven_metal/green_metal_rust_1k 384 -0 -0 0.1 0.1
+( -288 -4576 16 ) ( -288 -4576 17 ) ( -288 -4575 16 ) texturehaven_metal/green_metal_rust_1k 128 -0 -0 0.1 0.1
+}
+// brush 15
+{
+( -368 -4816 -0 ) ( -368 -4815 -0 ) ( -368 -4816 1 ) texturehaven_metal/metal_plate_1k 272 -0 -0 0.1 0.1
+( -432 -4816 -0 ) ( -432 -4816 1 ) ( -431 -4816 -0 ) texturehaven_metal/metal_plate_1k 384 -0 -0 0.1 0.1
+( -432 -4816 -0 ) ( -431 -4816 -0 ) ( -432 -4815 -0 ) texturehaven_metal/metal_plate_1k 384 -272 -0 0.1 0.1
+( -288 -4720 64 ) ( -288 -4719 64 ) ( -287 -4720 64 ) texturehaven_metal/metal_plate_1k 384 -272 -0 0.1 0.1
+( -288 -4720 16 ) ( -287 -4720 16 ) ( -288 -4720 17 ) texturehaven_metal/metal_plate_1k 384 -0 -0 0.1 0.1
+( -288 -4720 16 ) ( -288 -4720 17 ) ( -288 -4719 16 ) texturehaven_metal/metal_plate_1k 272 -0 -0 0.1 0.1
+}
+// brush 16
+{
+( -368 -4976 -0 ) ( -368 -4975 -0 ) ( -368 -4976 1 ) texturehaven_metal/rusty_metal_02_1k 432 -0 -0 0.1 0.1
+( -432 -4976 -0 ) ( -432 -4976 1 ) ( -431 -4976 -0 ) texturehaven_metal/rusty_metal_02_1k 384 -0 -0 0.1 0.1
+( -432 -4976 -0 ) ( -431 -4976 -0 ) ( -432 -4975 -0 ) texturehaven_metal/rusty_metal_02_1k 384 -432 -0 0.1 0.1
+( -288 -4880 64 ) ( -288 -4879 64 ) ( -287 -4880 64 ) texturehaven_metal/rusty_metal_02_1k 384 -432 -0 0.1 0.1
+( -288 -4880 16 ) ( -287 -4880 16 ) ( -288 -4880 17 ) texturehaven_metal/rusty_metal_02_1k 384 -0 -0 0.1 0.1
+( -288 -4880 16 ) ( -288 -4880 17 ) ( -288 -4879 16 ) texturehaven_metal/rusty_metal_02_1k 432 -0 -0 0.1 0.1
+}
+// brush 17
+{
+( -256 -5088 176 ) ( -256 -5087 176 ) ( -256 -5088 177 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( -256 -5088 176 ) ( -256 -5088 177 ) ( -255 -5088 176 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( -256 -5088 176 ) ( -255 -5088 176 ) ( -256 -5087 176 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( -240 -4416 192 ) ( -240 -4415 192 ) ( -239 -4416 192 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( -240 -4416 192 ) ( -239 -4416 192 ) ( -240 -4416 193 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( 224 -4416 192 ) ( 224 -4416 193 ) ( 224 -4415 192 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+}
+// brush 18
+{
+( -240 -4432 -0 ) ( -240 -4431 -0 ) ( -240 -4432 1 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( -240 -4432 -0 ) ( -240 -4432 1 ) ( -239 -4432 -0 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( -240 -4432 -0 ) ( -239 -4432 -0 ) ( -240 -4431 -0 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( -224 -4416 176 ) ( -224 -4415 176 ) ( -223 -4416 176 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( -224 -4416 16 ) ( -223 -4416 16 ) ( -224 -4416 17 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( 192 -4416 16 ) ( 192 -4416 17 ) ( 192 -4415 16 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+}
+// brush 19
+{
+( 176 -4496 -0 ) ( 176 -4495 -0 ) ( 176 -4496 1 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( 176 -5120 -0 ) ( 176 -5120 1 ) ( 177 -5120 -0 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( 176 -4496 -0 ) ( 177 -4496 -0 ) ( 176 -4495 -0 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( 192 -4432 176 ) ( 192 -4431 176 ) ( 193 -4432 176 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( 192 -4432 16 ) ( 193 -4432 16 ) ( 192 -4432 17 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+( 192 -4432 16 ) ( 192 -4432 17 ) ( 192 -4431 16 ) texturehaven_metal/factory_wall_1k 0 0 0 0.1 0.1
+}
+// brush 20
+{
+( -176 -5104 -0 ) ( -176 -5103 -0 ) ( -176 -5104 1 ) texturehaven_metal/factory_wall_1k -16 -0 -0 0.1 0.1
+( 112 -5104 -0 ) ( 112 -5104 1 ) ( 113 -5104 -0 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( 112 -5104 -0 ) ( 113 -5104 -0 ) ( 112 -5103 -0 ) texturehaven_metal/factory_wall_1k -0 16 -0 0.1 0.1
+( 176 -5088 176 ) ( 176 -5087 176 ) ( 177 -5088 176 ) texturehaven_metal/factory_wall_1k -0 16 -0 0.1 0.1
+( 176 -5088 16 ) ( 177 -5088 16 ) ( 176 -5088 17 ) texturehaven_metal/factory_wall_1k -0 -0 -0 0.1 0.1
+( 176 -5088 16 ) ( 176 -5088 17 ) ( 176 -5087 16 ) texturehaven_metal/factory_wall_1k -16 -0 -0 0.1 0.1
+}
+// brush 21
+{
+( -208 -4784 64 ) ( -208 -4783 64 ) ( -208 -4784 65 ) base_ceiling/metceil1d -0 64 -0 0.5 0.5
+( -208 -4784 64 ) ( -208 -4784 65 ) ( -207 -4784 64 ) base_ceiling/metceil1d -0 64 -0 0.5 0.5
+( -208 -4784 64 ) ( -207 -4784 64 ) ( -208 -4783 64 ) base_ceiling/metceil1d -0 -0 -0 0.5 0.5
+( -144 -4704 144 ) ( -144 -4703 144 ) ( -143 -4704 144 ) base_ceiling/metceil1d -0 -0 -0 0.5 0.5
+( -144 -4704 80 ) ( -143 -4704 80 ) ( -144 -4704 81 ) base_ceiling/metceil1d -0 64 -0 0.5 0.5
+( -144 -4704 80 ) ( -144 -4704 81 ) ( -144 -4703 80 ) base_ceiling/metceil1d -0 64 -0 0.5 0.5
+}
+}
+// entity 5
+{
+"classname" "light"
+"origin" "-200 -4808 120"
+"radius" "128"
+"_color" "1 1 1"
+"light" "500"
+"_tb_layer" "10"
+}
+// entity 6
+{
+"classname" "light"
+"origin" "56 -4888 88"
+"_tb_layer" "10"
 }

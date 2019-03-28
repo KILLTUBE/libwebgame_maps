@@ -1,3 +1,4 @@
 libwebgame
 texturehaven_bricks
 texturehaven_concrete
+texturehaven_metal
