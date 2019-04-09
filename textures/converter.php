@@ -21,12 +21,36 @@
 		$fullnames[] = "texturehaven_bricks/yellow_bricks";
 	}
 	
-	if (1) {
+	if (0) {
 		$fullnames[] = "texturehaven_metal/factory_wall";
 		$fullnames[] = "texturehaven_metal/green_metal_rust";
 		$fullnames[] = "texturehaven_metal/metal_plate";
 		$fullnames[] = "texturehaven_metal/rusty_metal_02";
 		$fullnames[] = "texturehaven_metal/rusty_metal";
+	}
+	
+	if (1) {
+		$fullnames[] = "texturehaven_floor/brick_floor";
+		$fullnames[] = "texturehaven_floor/cobblestone_01";
+		$fullnames[] = "texturehaven_floor/cobblestone_05";
+		$fullnames[] = "texturehaven_floor/cobblestone_color";
+		$fullnames[] = "texturehaven_floor/cobblestone_floor_02";
+		$fullnames[] = "texturehaven_floor/cobblestone_floor_03";
+		$fullnames[] = "texturehaven_floor/cobblestone_floor_05";
+		$fullnames[] = "texturehaven_floor/cobblestone_floor_07";
+		$fullnames[] = "texturehaven_floor/cobblestone_floor_13";
+		$fullnames[] = "texturehaven_floor/cobblestone_square";
+		$fullnames[] = "texturehaven_floor/floor_bricks_02";
+		$fullnames[] = "texturehaven_floor/floor_klinkers_01";
+		$fullnames[] = "texturehaven_floor/floor_klinkers_04";
+		$fullnames[] = "texturehaven_floor/floor_pattern_01";
+		$fullnames[] = "texturehaven_floor/floor_pebbles_01";
+		$fullnames[] = "texturehaven_floor/floor_tiles_04";
+		$fullnames[] = "texturehaven_floor/floor_tiles_06";
+		$fullnames[] = "texturehaven_floor/floor_tiles_08";
+		$fullnames[] = "texturehaven_floor/floor_tiles_09";
+		$fullnames[] = "texturehaven_floor/marble_01";
+		$fullnames[] = "texturehaven_floor/square_floor_patern_01";
 	}
 	
 	$shader = "";
